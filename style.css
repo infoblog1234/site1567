@@ -1,0 +1,46 @@
+﻿*{
+	margin:0;
+	padding:0;
+}
+html,
+body{
+	height:100%;
+}
+body{
+	background: white url("img/.jpg") repeat;
+	font:14px/22px Arial;/*22 це інтерліньяж, висота рядка*/
+	color#444444;
+}
+
+#wrap{
+	min-height:100%;
+	position:relative;
+	min-width:980px;
+}
+/*Шапка*/
+#header{
+	height:100px;
+}
+/*Контент*/
+#content{
+	padding-bottom:50px;
+	overflow:hidden;
+}
+/**** АДАПТИВ ****/
+
+/***  Смартфон 3.5 ***/
+@media(min-width:0px) and (max-width:320px){
+	
+}
+/***  Смартфон 5.5 ***/
+@media(min-width:321px) and (max-width:480px){
+	
+}
+/***   Планшет ***/
+@media(min-width:481px) and (max-width:768px){
+	
+}
+/***  Ноутбук ***/
+@media(min-width:769px) and (max-width:992px){
+	
+}
